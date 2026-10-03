@@ -1,0 +1,12 @@
+App(
+    appid="ups_emulator",
+    name="UPS Emulator",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ups_emulator_app",
+    stack_size=4096,
+    fap_version="0.9",
+    fap_category="Tools",
+    fap_description="USB HID APC-like UPS emulator v9 stable for MikroTik RouterOS",
+    fap_author="OpenAI",
+    fap_icon="ups_icon.png",
+)
